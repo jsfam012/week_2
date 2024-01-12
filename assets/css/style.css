@@ -1,0 +1,54 @@
+:root {
+    --primary-color: black;
+}
+
+/* Resets */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*Global Classes */
+.row, .column {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.text-center {
+    text-align: center;
+}
+
+header h3 {
+    color: var(--paimary-color);
+}
+
+header nav a {
+    color: var(--primary-color);
+}
+/* Custom Styles */
+form {
+    width: 380px;
+    margin: 20px auto 0;
+}
+
+form > * {
+    padding: 5px 10px;
+    margin: 4px 0;
+}
+
+form .input-wrap {
+    padding: 0;
+}
+
+form input {
+    padding: 3px 10px;
+    flex: 1;
+}
+
+form input [type="text"] {
+    margin-right: 10px;
+}
